@@ -14,7 +14,7 @@
 
 # production
 /build
-/blogDB.sqlite
+blogDB.sqlite
 
 # misc
 .DS_Store
