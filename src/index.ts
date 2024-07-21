@@ -4,7 +4,6 @@ import { cors } from "@elysiajs/cors";
 import { swagger } from "@elysiajs/swagger";
 import AuthController from "./controllers/AuthController";
 import CategoryController from "./controllers/CategoryController";
-import UserModel from "./databases/models/User";
 import UserController from "./controllers/UserController";
 import BlogController from "./controllers/BlogController";
 

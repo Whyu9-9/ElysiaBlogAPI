@@ -1,7 +1,6 @@
 import { Elysia, t } from "elysia";
 import BlogModel from "../databases/models/Blog";
 import { authMiddleware } from "../middlewares/authMiddleware";
-import { isAdminMiddleware } from "../middlewares/isAdminMiddleware";
 import CategoryModel from "../databases/models/Category";
 
 class BlogController {
