@@ -1,11 +1,14 @@
 {
-  "name": "ElysiaAPIBlog",
+  "name": "elysia-blog-api",
   "version": "1.0.50",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
+    "@elysiajs/cors": "^1.1.0",
+    "@elysiajs/jwt": "^1.1.0",
+    "@elysiajs/swagger": "^1.1.0",
     "elysia": "latest"
   },
   "devDependencies": {
